@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background-color: #f7f7f7;
+  }
+  
+  .loginContainer {
+    margin: 12rem;
+    text-align: left;
+    display: inline-block;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 320px;
+  }
+  
+  .formHeading {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .formHeadingP {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .formHeadingP a {
+    color: #007c89;
+    text-decoration: none;
+  }
+  
+  .formLabel {
+    display: inline;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .formCheckbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .formCheckboxInput {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .formButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007c89;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .formButton:hover {
+    background-color: #005f66;
+  }
+  .error{
+    color: red;
+    padding: 5px;
+  }
