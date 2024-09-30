@@ -10,7 +10,7 @@ export default function Header() {
       <div className="header">
         <div className="header-left">
           <div className="header-left-icon">
-            <img src="./public/MC_Intuit_New_-_Brand_Assets_02.png" alt="icon" className="header-left-image" />
+            <img src="/MC_Intuit_New_-_Brand_Assets_02.png" alt="icon" className="header-left-image" />
           </div>
           <div>
             <a href="" className="header-links">Solutions and Services ▼</a>
@@ -23,7 +23,7 @@ export default function Header() {
           <a href="#">
             <img
               className="header-search-icon"
-              src="./public/OIP (1).jpeg"
+              src="/OIP (1).jpeg"
               alt="search icon"
             />
           </a>
